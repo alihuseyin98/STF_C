@@ -12,10 +12,10 @@ int integer1, integer2, sum;        /* declaration */
 printf( "Enter first integer\n" );  
 scanf( "%d", &integer1 );     
 printf( "Enter second integer\n" ); 
-scanf( "%d", &integer2 ); 
+scanf( " %d", &integer2 ); 
 sum = integer1 + integer2; 
 printf( "Sum is %d\n", sum );                
-printf("%d",5);
+printf("%d %d %.2f",5,12,3.454646);
 
 return 0;
 }

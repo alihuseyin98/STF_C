@@ -6,7 +6,8 @@
 
 #define YAZ printf
 
-PROGRAM
-BASLA
-    YAZ("Hello World !");
-BIT
+PROGRAM // int main()
+BASLA   // {}
+    YAZ("Hello World !"); //printf("Hello World !");
+BIT     // return 0;}
+ 
